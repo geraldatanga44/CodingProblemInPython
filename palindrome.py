@@ -1,7 +1,12 @@
+"""
+Determine whether an integer is a palindrome. 
+An integer is a palindrome when it reads
+the same backward as forward.
+"""
 
 
 def reverse(n):
-    negative = n < 0  # use to determine signess
+    negative = n < 0  # use to determine signed
     if negative:
         n *= -1  # make value positive
     result = 0
