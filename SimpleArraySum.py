@@ -1,3 +1,5 @@
+#Hackerrank SimpleArraySum
+
 def simpleArraySum(arr):
 	sol = 0 	#track sum of array 
 	odd = len(arr) % 2 != 0 	#even or odd array
